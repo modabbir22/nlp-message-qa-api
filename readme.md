@@ -27,8 +27,8 @@ GET /ask?question=When%20is%20Layla%20planning%20her%20trip%20to%20London%3F
 {
   "answer": "Layla Kawaguchi: Please remember I prefer aisle seats during my flights."
 }
+```
 
-'''
 ✔ Uses the public /messages API
 
 Messages retrieved from:
