@@ -77,28 +77,34 @@ cd <your-repo>
 ```bash
 python -m venv venv
 ```
-2. Create a virtual environment
-python -m venv venv
 
-3. Activate it
+
+3. **Activate it**
 
 Windows (CMD):
-
+```bash
 venv\Scripts\activate
-
+```
 
 macOS/Linux:
-
+```bash
 source venv/bin/activate
+```
 
 4. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 5. Run the server
+```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
 
 6. Open Swagger documentation
+```bash
 http://localhost:8000/docs
+```
 
 🌐 Deployment
 
@@ -107,12 +113,14 @@ This service can be deployed to any Python-friendly hosting platform.
 Recommended: Render, Railway, Fly.io
 
 Start command:
-
+```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
 
 Ensure the deployed API exposes:
-
+```bash
 /ask
 
 /docs
+```
