@@ -34,3 +34,74 @@ GET /ask?question=When%20is%20Layla%20planning%20her%20trip%20to%20London%3F
 Messages retrieved from:
 
 https://november7-730026606190.europe-west1.run.app/messages
+
+✔ Keyword-based retrieval
+
+The system:
+
+Tokenizes the question
+
+Removes stopwords
+
+Fetches messages
+
+Computes keyword overlap
+
+Returns the message with the highest score
+
+✔ FastAPI with interactive docs
+
+Accessible at:
+
+/docs
+
+🏗 Project Structure
+.
+├── main.py
+├── requirements.txt
+└── README.md
+
+⚙️ Running Locally
+1. Clone the repo
+git clone <your-repo-url>
+cd <your-repo>
+
+2. Create a virtual environment
+python -m venv venv
+
+3. Activate it
+
+Windows (CMD):
+
+venv\Scripts\activate
+
+
+macOS/Linux:
+
+source venv/bin/activate
+
+4. Install dependencies
+pip install -r requirements.txt
+
+5. Run the server
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+6. Open Swagger documentation
+http://localhost:8000/docs
+
+🌐 Deployment
+
+This service can be deployed to any Python-friendly hosting platform.
+
+Recommended: Render, Railway, Fly.io
+
+Start command:
+
+uvicorn main:app --host 0.0.0.0 --port 8000
+
+
+Ensure the deployed API exposes:
+
+/ask
+
+/docs
