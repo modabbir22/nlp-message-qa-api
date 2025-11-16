@@ -70,11 +70,13 @@ Accessible at:
 ```bash
 git clone <your-repo-url>
 cd <your-repo>
+```
 
 2. **Create a virtual environment**
 
 ```bash
 python -m venv venv
+```
 2. Create a virtual environment
 python -m venv venv
 
