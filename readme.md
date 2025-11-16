@@ -31,8 +31,6 @@ GET /ask?question=When%20is%20Layla%20planning%20her%20trip%20to%20London%3F
 
 Messages retrieved from:
 
-bash
-Copy code
 https://november7-730026606190.europe-west1.run.app/messages
 ✔ Keyword-based retrieval
 
