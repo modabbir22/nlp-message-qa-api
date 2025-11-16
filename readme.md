@@ -53,16 +53,16 @@ The system:
 
 Accessible at:
 
-```json
+```bash
 /docs
 ```
 
 🏗 Project Structure
-.
+```bash
 ├── main.py
 ├── requirements.txt
 └── README.md
-
+```bash
 ## ⚙️ Running Locally
 
 1. **Clone the repo**
@@ -91,17 +91,17 @@ macOS/Linux:
 source venv/bin/activate
 ```
 
-4. Install dependencies
+4.  **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Run the server
+5.  **Run the server**
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-6. Open Swagger documentation
+6.  **Open Swagger documentation**
 ```bash
 http://localhost:8000/docs
 ```
