@@ -38,6 +38,8 @@ https://november7-730026606190.europe-west1.run.app/messages
 ✔ Keyword-based retrieval
 
 The system:
+ 
+```bash
 
 -Tokenizes the question
 
@@ -48,6 +50,8 @@ The system:
 -Computes keyword overlap
 
 -Returns the message with the highest score
+
+```
 
 ✔ FastAPI with interactive docs
 
@@ -62,7 +66,8 @@ Accessible at:
 ├── main.py
 ├── requirements.txt
 └── README.md
-```bash
+```
+
 ## ⚙️ Running Locally
 
 1. **Clone the repo**
