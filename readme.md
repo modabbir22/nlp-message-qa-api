@@ -73,8 +73,8 @@ Accessible at:
 1. **Clone the repo**
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo>
+git clone https://github.com/modabbir22/nlp-message-qa-api.git
+cd nlp-message-qa-api
 ```
 
 2. **Create a virtual environment**
