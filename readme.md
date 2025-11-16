@@ -121,7 +121,7 @@ Start command:
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
-##Live Deployment
+## 🌐Live Deployment
 
 The API service is publicly deployed and accessible at:
 ```bash
