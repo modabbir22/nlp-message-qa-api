@@ -39,21 +39,23 @@ https://november7-730026606190.europe-west1.run.app/messages
 
 The system:
 
-Tokenizes the question
+-Tokenizes the question
 
-Removes stopwords
+-Removes stopwords
 
-Fetches messages
+-Fetches messages
 
-Computes keyword overlap
+-Computes keyword overlap
 
-Returns the message with the highest score
+-Returns the message with the highest score
 
 ✔ FastAPI with interactive docs
 
 Accessible at:
 
+```json
 /docs
+```
 
 🏗 Project Structure
 .
